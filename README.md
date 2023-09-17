@@ -1,6 +1,6 @@
 # Mastermind Board Game
-##Introduction
-Welcome to the Mastermind game project! This Java-based application is designed using a three-tier architecture and offers a classic code-breaking experience. This README provides essential information for understanding and using the Mastermind application.
+## Introduction
+Welcome to the Mastermind game project! This Java-based application is designed using a three-tier architecture and offers a classic code-breaking experience. This README provides essential information for understanding and using the Mastermind application. University course: Projectes de Programació (PROP) @ UPC-FIB.
 
 ## Project Structure
 The project directory is organized into three main folders:
