@@ -1,0 +1,2 @@
+En cada directorio tenemos las imagenes que se usan para cada una de sus pantallas. 
+Dentro de las carpetas ya no ponemos un index.txt ya que se sobreentiende.

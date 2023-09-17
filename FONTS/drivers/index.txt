@@ -1,0 +1,5 @@
+Dentro de drivers tenemos el código de los drivers de los controladores de la capa de dominio. Además tenemos un driver adicional (demo) para testear la comunicacion entre las dos clases y el buen funcionamiento del flow del Mastermind. 
+
+Dir stubs: dispone de los stubs necesarios para implementar dichos drivers.
+
+

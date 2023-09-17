@@ -1,0 +1,4 @@
+Dentro de domain tenemos, como ya hemos documentado, el codigo fuente de la capa de dominio de nuestro proyecto.
+Dir exceptions: todas las excepciones usadas en la capa de dominio.
+
+Estos dos directorios no tienen un archivo plano de texto con indicaciones ya que este archivo es autoexplicatorio.

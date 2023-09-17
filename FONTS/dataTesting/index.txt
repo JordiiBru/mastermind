@@ -1,0 +1,31 @@
+Aqui guardamos los juagos de prueba que queremos probar en formato .csv
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Juegos de prueba:
+
+-RankingsRandomTest: En este juego de pruebas se quiere comprobar que añadiendo el .csv, con unos rankings random guardados, se imprimen correctamente por
+pantalla.
+
+-RankingsDummyTest: En este juego de pruebas se quiere comprobar que se actualizan correctamente tanto el ranking de CodeMaker como el ranking de CodeBreaker.
+Para ello hay que jugar una partida cualquiera donde se sacara una puntuación superior a 1 y, ya que todas las entradas tienen un score de 1, el jugador se
+colocará en primera posición.
+
+-RankingProPlayerTest: En este juego de pruebas se quiere comprobar que no se actualizan los rankings en caso de que la puntuación no supere las 20 mejores.
+Para ello hay que jugar una partida cualquiera donde se sacara una puntuación inferior a 1.000.000 y, ya que todas las entradas tienen un score de 1.000.000, los
+rankings no se actualizarán.
+
+-RecordsRandomTest: En este juego de pruebas se quiere comprobar que añadiendo el .csv, con unos récords random guardados, se imprimen correctamente por
+pantalla.
+
+-RecordsBeatenTest: En este juego de pruebas se quiere comprobar que los récords se actualizan correctamente en el caso de batir algún récord.
+Para ello hay que jugar una partida cualquiera donde se batirán todos los récords posibles, ya que todos los récords actuales tienen un valor mínimo, de forma que
+se actualizarán todos los récords.
+
+-RecordsNoBeatenTest: En este juego de pruebas se quiere comprobar que los récords no se actualizan en el caso de no se bata ningún récord.
+Para ello hay que jugar una partida cualquiera donde no se batirá ningún récord, ya que todos los récords actuales tienen un valor muy alto, de forma que
+los récords no se actualizarán.
+
+-GameRandomTest: En este juego de pruebas se quiere comprobar que se carga correctamente la partida guardada en Game.csv, para ello añadiremos en la carpeta de
+data una partida random y veremos que cuando se le da al botón de continuar partida (seleccionable porque detecta que hay una partida guardada) la partida se
+carga correctamente.

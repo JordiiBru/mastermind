@@ -1,0 +1,27 @@
+En este directorio (EXE) tenemos todos los archivos compilados de nuestro proyecto, tal y como esta en la estructura de la carpeta FONTS. Pero en lugar de los .java, estan los .class. 
+Si las carpetas se encuentran vacias, por favor, ve al directorio FONTS y ejecuta el script make.sh (seguir instrucciones del index.txt de FONTS).
+
+Si todos los directorios de EXE estan llenos, es el momento de probar la ejecucion de los distintos drivers o tests unitarios.
+
+drivers.sh: (PRIMERA ENTREGA)
+Script que da la opción a escoger de que driver ejecutar. 
+Opcion 1: driver de funcionamiento de juego.
+Opcion 2: driver del controlador de dominio.
+Opcion 3: driver del controlador de juego.
+Una vez escogido el driver, lo ejecutará y en ese instante se podrá escoger las opciones que muestra por la temrinal.
+
+testing.sh: (PRIMERA ENTREGA)
+Script que da la opción a escoger de que test unitario con JUnit ejecutar.
+Estos test unitarios son de las clases principales de la capa de dominio.
+El script da la opcion de escoger un solo test o ejecutarlos todos secuencialmente.
+Una vez escogido, lo ejecutara y mostrara por la terminal los tests resueltos.
+
+clean.sh:
+Script para borrar todos los archivos .class generados por la compilacion. Metodo de limpieza de EXE.
+
+
+-----------------
+
+Para ejecutar cada uno de los scripts o el .jar, es el mismo funcionamiento que el make.sh de FONTS.
+chmod +x nombre_del_script.sh
+./nombre_del_script.sh

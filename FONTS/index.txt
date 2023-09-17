@@ -1,0 +1,26 @@
+Este directorio (FONTS) contiene todos los archivos fuente de nuestro proyecto.
+Todas las clases de la capa de dominio estan en la carpeta domain, junto con otros directorios que la complementan (utils y exceptions). 
+En la carpeta drivers tenemos la implementacion de los drivers para comprobar el buen funcionamiento de los controladores. 
+En la carpeta lib hay las librerias que hemos usado en nuestro proyecto.
+En la carpeta test tenemos las clases de testing unitarios de cada una de las clases principales de dominio.
+En la carpeta utils tenemos las clases usadas en dominio para facilitar la implementacion del codigo.
+En la carpeta persistence tenemos todas las clases relacionadas con la capa de persistencia.
+En la carpeta de presentation tenemos todas las clases relacionadas con la capa de presentacion.
+En la carpeta de dara se almacenaran los csv correspondientes de las partidas o datos guardados.
+
+make.sh:
+Script que compila todos los archivos del proyecto y los .class generados son movidos a la carpeta EXE (../EXE). Si las carpetas especificadas del proyecto, en EXE, no estan creadas, el script se encargara de crearlas, antes de mover los archivos.
+
+play.sh:
+script que ejecuta el juego.
+
+-------------
+
+Para ejecutar el script, se debe hacer desde linux, con el comando "./make.sh". Si por alguna razon, no se puede ejecutar, se debe darle permisos de ejecucion: "chmod +x make.sh". De esta forma, no debe haber ningun problema al hacer el comando de ejecucion.
+
+Al ejecutar el script, devolvera un par de mensajes pero son warnings inofensivos, pues la compilacion sigue siendo correcta.
+
+Una vez ejecutado el script, se debe ir al directorio EXE y leer el archivo index.txt para saber como continuar.
+* PERO PARA EJECUTAR EL JUEGO SE HACE EN FONTS CON EL SCRIPT play.sh
+
+

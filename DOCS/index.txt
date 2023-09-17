@@ -1,0 +1,15 @@
+Este directorio (DOCS) contiene toda la documentación del proyecto, además de la relación de las clases con el miembro que las ha implementado.
+
+Se incluyen el diagrama de casos de uso en formato png, la documentación de cada uno de los casos de uso y de los distintos actores. También contiene el diagrama de clases UML en su versión de diseño en formato png, además de la descripción de cada una de las clases, interfaces y demás juntamente con los métodos y atributos que contienen.
+
+Finalmente en el en la 'Documentación ED&Alg' se especifican los algoritmos utilizados con una explicación de cómo funcionan, juntamente con las estructuras de datos que utilizan.
+
+---------
+
+2a entrega: En toda documentación, lo que sea azul o con un título azul, implica que es un cambio o que es nuevo del todo. Así pues, se puede diferenciar con facilidad la diferencia entre la primera entrega con la segunda. 
+
+Modificaciones para corregir la primera entrega:
+* Diagrama de casos de uso
+* Docu Clases
+* Relacion clase/miembros
+* Diagrama ED&A
